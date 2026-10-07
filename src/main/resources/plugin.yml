@@ -1,0 +1,17 @@
+name: pivo-vipe
+main: pivo.PivoVipe
+version: 1.0
+api-version: 1.16
+author: pivo
+description: Плагин обратного отсчёта до закрытия сервера на вайп
+
+commands:
+  pivovipe:
+    description: Запуск отсчёта до вайпа
+    usage: /pivovipe start
+    permission: pivovipe.use
+    permission-message: У вас нет прав на использование этой команды.
+
+permissions:
+  pivovipe.use:
+    default: op
